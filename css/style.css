@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
     
 
 .container-fluid {
@@ -6,14 +6,45 @@
 }
 
 
-@media (min-width: 1000px){
-    #logogolf{
-    display: none;
+h1 {
+    font: 'Roboto', sans-serif;
+    font-size: .7em; 
+    
+}
+
+ @media only screen and (min-width: 365px) {
+h1 {
+font-size: 1em;
 }
 }
 
-@media (min-width: 1390px){
-    #logogolf{
-    display: block;
+@media only screen and (min-width: 450px) {
+h1 {
+font-size: 1em;
 }
 }
+
+
+@media only screen and (min-width: 530px) {
+h1 {
+font-size: 1.5em;
+}
+}
+
+@media only screen and (min-width: 700px) {
+h1 {
+font-size: 2em;
+}
+}
+
+@media only screen and (min-width: 1250px) {
+h1 {
+font-size: 3em;
+}
+} 
+
+@media only screen and (min-width: 1550px) {
+h1 {
+font-size: 3.5em;
+}
+} 
