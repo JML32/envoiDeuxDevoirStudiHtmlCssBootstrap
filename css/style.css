@@ -6,3 +6,14 @@
 }
 
 
+@media (min-width: 1000px){
+    #logogolf{
+    display: none;
+}
+}
+
+@media (min-width: 1390px){
+    #logogolf{
+    display: block;
+}
+}
