@@ -5,6 +5,10 @@
     margin-top: 10px;
 }
 
+.eventtext {
+    font-size: 1.3em;
+}
+
 /* media queries h1 */
 h1 {
     font: 'Roboto', sans-serif;
