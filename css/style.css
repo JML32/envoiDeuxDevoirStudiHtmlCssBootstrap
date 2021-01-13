@@ -5,7 +5,7 @@
     margin-top: 10px;
 }
 
-
+/* media queries h1 */
 h1 {
     font: 'Roboto', sans-serif;
     font-size: .7em; 
@@ -20,7 +20,7 @@ font-size: 1em;
 
 @media only screen and (min-width: 450px) {
 h1 {
-font-size: 1em;
+font-size: 1.1em;
 }
 }
 
@@ -48,3 +48,57 @@ h1 {
 font-size: 3.5em;
 }
 } 
+
+/* media queries h4 */
+h4 {
+    font: 'Roboto', sans-serif;
+    font-size: 1.1em; 
+    
+}
+
+ @media only screen and (min-width: 365px) {
+h4 {
+font-size: 1.1em;
+}
+}
+
+
+/* media queries h5 */
+h5 {
+    font: 'Roboto', sans-serif;
+    font-size: .8em; 
+    
+}
+
+ @media only screen and (min-width: 365px) {
+h5 {
+font-size: 1em;
+}
+}
+
+@media only screen and (min-width: 450px) {
+h5 {
+font-size: 1.1em;
+}
+}
+
+
+@media only screen and (min-width: 680px) {
+h5 {
+font-size: 1.5em;
+}
+}
+
+
+@media only screen and (min-width: 980px) {
+h5 {
+font-size: 0.8em;
+}
+}
+
+@media only screen and (min-width: 1325px) {
+h5 {
+font-size: 1em;
+}
+}
+
